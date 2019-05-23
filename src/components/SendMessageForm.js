@@ -48,7 +48,7 @@
            <form onSubmit={this.onSubmit} style={styles.form}>
              <input
                type="text"
-               placeholder="Type a message here then hit ENTER"
+               placeholder="Enter A Message Champ"
                onChange={this.onChange}
                value={this.state.text}
                style={styles.input}

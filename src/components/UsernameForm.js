@@ -40,11 +40,16 @@ class UsernameForm extends Component {
           <div className="">
           <h2 style={{color:'#659999',fontFamily: 'Baloo Bhai',fontSize:'50px'}}
           className="d-flex justify-content-center">LOGIN</h2>
-          <form className="form-group border border-success rounded  p-2 font-weight-bold mt-2 "
+
+          <form className="form-group border border-success rounded  p-2 font-weight-bold mb-5 "
            style={{ backgroundColor: '#659999' }}
           onSubmit={this.onSubmit}>
             <input
-              style={{justifyContent:'center'}}
+              style={{justifyContent:'center',
+              background: 'none',
+              color:'inherit',
+              outline: 'none',
+              border: 'none',}}
               type="text"
               placeholder="Enter Username"
               onChange={this.onChange}
