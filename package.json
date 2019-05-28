@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "concurrently \"node ./server.js\" \"react-scripts start\"",
-    "build": "npm start",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

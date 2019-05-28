@@ -8,4 +8,4 @@ yarn-error.log*\
 
 #ignore
 server.js
-chatscreen.js
+# chatscreen.js
