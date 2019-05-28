@@ -40,6 +40,7 @@
          border: 'none',
          flex: 1,
          fontSize: 16,
+        
        },
      }
      return (

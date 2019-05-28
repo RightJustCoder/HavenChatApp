@@ -22,17 +22,16 @@ class UsernameForm extends Component {
 
   render() {
 
-      
-  
     return (
       <div style={{width:'100%', height:'100vh'}}>
-      <h1 className=""style={{ color: '#659999',fontFamily: 'Baloo Bhai',font:'cursive', fontSize:'70px' }}>HAVEN</h1>
-
-    
+      <h1 className=""style={{ color: '#659999',fontFamily: 'Baloo Bhai',font:'cursive', fontSize:'70px' }}>SAFEHAVEN</h1>
+      <h5 className="float-right" style={{ color: '#f4791f',fontFamily: 'Baloo Bhai', fontSize:'25px'}}>A Safe Space to Discuss Agriculture</h5>
       <div style={{height:'10%'}}> 
       <img 
       style={{width:'100%'}}
-      src="https://images.unsplash.com/photo-1535048637252-3a8c40fa2172?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1790&q=80" /> 
+      src="https://images.unsplash.com/photo-1535048637252-3a8c40fa2172?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1790&q=80" 
+      alt="Farm trucks on open field"
+      /> 
       </div>
         <div className="container border border-success" 
       style={{ backgroundColor: '#f4791f', width: '700', marginTop:'20em' }}>
@@ -47,6 +46,7 @@ class UsernameForm extends Component {
             <input
               style={{justifyContent:'center',
               background: 'none',
+              fontFamily: 'Baloo Bhai',
               color:'inherit',
               outline: 'none',
               border: 'none',}}
@@ -54,7 +54,7 @@ class UsernameForm extends Component {
               placeholder="Enter Username"
               onChange={this.onChange}
             />
-            <button className="btn btn-warning m-1 ">Join The Convo</button>
+            <button style={{backgroundColor: '#f4791f'}} className="btn btn-warning m-1 ">Join The Convo</button>
            
           </form>
         </div>
