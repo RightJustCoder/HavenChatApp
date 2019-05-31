@@ -7,5 +7,5 @@ yarn-debug.log*
 yarn-error.log*\
 
 #ignore
-server.js
+# server.js
 # chatscreen.js
