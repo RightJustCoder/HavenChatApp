@@ -24,3 +24,4 @@ Using our cross-platform SDKs, all chat data is sent to our hosted API where we 
 
 
 # HavenChatApp
+# havenchatter
